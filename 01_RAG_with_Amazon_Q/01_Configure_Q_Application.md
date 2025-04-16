@@ -10,16 +10,18 @@ Amazon Q Business를 이용해서 RAG를 구현하는 실습을 진행하기 위
 [Amazon Q Business 콘솔(us-west-2)](https://us-west-2.console.aws.amazon.com/amazonq/business/applications?region=us-west-2)
 
 3. Amazon Q Business 콘솔에서 Get Started 를 클릭합니다.
+![alt text](images/q-01.png)
 
 4. Create application 을 클릭합니다.
+![alt text](images/q-02.png)
 
-5. Application name 항목에 MyQBizApp 이라고 입력하거나 미리 생성된 추천 이름을 사용해도 됩니다.
+6. Application name 항목에 MyQBizApp 이라고 입력하거나 미리 생성된 추천 이름을 사용해도 됩니다.
 
-6. Access management method 를 AWS IAM Identity Center(recommended)로 둡니다.
+7. Access management method 를 AWS IAM Identity Center(recommended)로 둡니다.
+![alt text](images/q-03.png)
 
-7. Create 를 선택합니다. 다음과 같이 애플리케이션이 생성된 것을 확인할 수 있습니다.
-
-이미지
+9. Create 를 선택합니다. 다음과 같이 애플리케이션이 생성된 것을 확인할 수 있습니다.
+![alt text](images/q-04.png)
 
 
 ## 2.2 사용자 생성하기
