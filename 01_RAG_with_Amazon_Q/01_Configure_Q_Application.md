@@ -10,17 +10,21 @@ Amazon Q Business를 이용해서 RAG를 구현하는 실습을 진행하기 위
 [Amazon Q Business 콘솔(us-west-2)](https://us-west-2.console.aws.amazon.com/amazonq/business/applications?region=us-west-2)
 
 3. Amazon Q Business 콘솔에서 Get Started 를 클릭합니다.
+
 ![alt text](images/q-01.png)
 
 4. Create application 을 클릭합니다.
+
 ![alt text](images/q-02.png)
 
 6. Application name 항목에 MyQBizApp 이라고 입력하거나 미리 생성된 추천 이름을 사용해도 됩니다.
 
 7. Access management method 를 AWS IAM Identity Center(recommended)로 둡니다.
+
 ![alt text](images/q-03.png)
 
 9. Create 를 선택합니다. 다음과 같이 애플리케이션이 생성된 것을 확인할 수 있습니다.
+
 ![alt text](images/q-04.png)
 
 
@@ -28,21 +32,32 @@ Amazon Q Business를 이용해서 RAG를 구현하는 실습을 진행하기 위
 
 1. 만들어진 Amazon Q Business 애플리케이션 화면에서 User access 섹션의 Manage user access 를 클릭합니다.
 
+
 2. Add groups and users 를 클릭합니다.
 
 3. Add and assign new users 를 선택하고, Next 를 클릭합니다.
+
+![alt text](images/q2-02.png)
 
 4. 다음 화면에서 Add new users 를 클릭합니다.
 
 5. 여러분의 이름과 사용하시는 메일주소를 입력하고 Next 를 클릭합니다. 
 예에서는 John Kim 이라는 이름을 사용했습니다. 실습을 위해서 AWS 계정으로 사용하지 않는 개인 메일 주소를 사용하시기를 권장합니다.
 
+![alt text](images/q2-03.png)
+
 6. 다음화면에서 Add를 누르고 Assign 을 클릭합니다.
+
+![alt text](images/q2-04.png)
 
 7. 입력하신 메일주소의 메일함에서 AWS IAM Identity Center로 초대 메일을 확인하고 메일 내용 중에 Accept Invitation 을 클릭합니다.
 
+![alt text](images/q2-05.png)
+
 8. AWS에 로그인시 사용할 암호를 입력하고 새 암호 설정을 클릭합니다.
 (8~64자, 대문자 및 소문자, 숫자, 영숫자 이외의 특수문자 포함)
+
+![alt text](images/q2-06.png)
 
 10.  계정이 생성된 후 보여지는 로그인 페이지를 닫습니다. 
 
