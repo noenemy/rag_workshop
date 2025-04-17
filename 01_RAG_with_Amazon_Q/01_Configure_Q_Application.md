@@ -1,8 +1,8 @@
-# 실습 2. Amazon Q Business 를 이용한 RAG 실습
+# 실습 1. Amazon Q Business 를 이용한 RAG 실습
 
 Amazon Q Business를 이용해서 RAG를 구현하는 실습을 진행하기 위해 Amazon Q Business 애플리케이션을 생성해보도록 하겠습니다.
 
-## 2.1 Amazon Q Business 애플리케이션 생성
+## 1.1 Amazon Q Business 애플리케이션 생성
 
 1. 웹 브라우저에서 Amazon Q Business 콘솔 페이지를 엽니다.
 2. 이 실습은 us-west-2 (Oregon) 리전을 사용하므로 리전 정보가 올바르게 설정되어 있는지 확인하시기 바랍니다.
@@ -28,7 +28,7 @@ Amazon Q Business를 이용해서 RAG를 구현하는 실습을 진행하기 위
 ![alt text](images/q-04.png)
 
 
-## 2.2 사용자 생성하기
+## 1.2 사용자 생성하기
 
 1. 만들어진 Amazon Q Business 애플리케이션 화면에서 **User access** 섹션의 **Manage user access** 를 클릭합니다.
 
@@ -61,7 +61,7 @@ Amazon Q Business를 이용해서 RAG를 구현하는 실습을 진행하기 위
 10.  계정이 생성된 후 보여지는 로그인 페이지를 닫습니다. 
 
 
-## 2.3 Amazon Q Business App 접속하기
+## 1.3 Amazon Q Business App 접속하기
 
 1. 브라우저에서 앞에서 생성한 Q Business Application 페이지로 이동합니다.
 
