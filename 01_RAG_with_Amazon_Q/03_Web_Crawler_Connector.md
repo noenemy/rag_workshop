@@ -1,8 +1,8 @@
-## 실습 3. 웹 크롤러를 이용한 Amazon Q Business 실습
+# 실습 3. 웹 크롤러를 이용한 Amazon Q Business 실습
 
 이 실습에서는 앞에서 만든 Amazon Q Business 애플리케이션에서 웹 크롤링을 이용해서 RAG를 구현하는 예를 실습해보겠습니다.
 
-# 3.1 Web Crawler Connector 이용하기
+## 3.1 Web Crawler Connector 이용하기
 
 1. 생성한 Q Business 애플리케이션에서 **Add Data sources** 버튼을 클릭합니다.
 
@@ -59,7 +59,7 @@
 실습 상황에 따라서 쉬는 시간으로 활용되거나 또는 별도의 기술 설명이 진행될 수 있습니다.
 
 
-# 3.2 Amazon Q Business 애플리케이션 이용하기
+## 3.2 Amazon Q Business 애플리케이션 이용하기
 
 1. 생성한 Q Business 애플리케이션의 **Deployed URL** 을 이용해서 애플리케이션에 접속합니다. 
 
