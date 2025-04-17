@@ -37,7 +37,7 @@ Amazon Q Business를 이용해서 RAG를 구현하는 실습을 진행하기 위
 
 3. Add and assign new users 를 선택하고, Next 를 클릭합니다.
 
-![alt text](images/q2-02.png)
+<img src="images/q2-02.png" width="400px">
 
 4. 다음 화면에서 Add new users 를 클릭합니다.
 
