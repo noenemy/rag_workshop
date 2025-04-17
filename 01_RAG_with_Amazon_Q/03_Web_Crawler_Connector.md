@@ -65,6 +65,8 @@
 
 <img src="images/q03-10.png" width="400px">
 
+<br>
+
 2. 크롤링한 웹 페이지의 내용에 대해 문의하기 위해 다음과 같은 프롬프트를 입력하고 결과를 확인합니다.
 
 ~~~
@@ -81,6 +83,8 @@ What are the important points to see there?
 
 <img src="images/q03-11.png" width="600px">
 
+<br>
+<br>
 
 3. 추가적으로 다음과 같은 프롬프트를 입력하고 결과를 확인해봅니다.
 
@@ -99,6 +103,9 @@ Create a flyer for Yosemite visitors based on this conversation
 
 <img src="images/q03-12.png" width="600px">
 
+<br>
+<br>
+
 4. 그 외에도 웹 크롤링으로 추가한 문서 페이지 내용을 프롬프트를 이용해서 입력해보시기 바랍니다.
 (예: 마블 유니버스 영화, 제임스본드 영화 목록, Bedrock Agents 에 대한 기술 문의)
 
@@ -110,14 +117,14 @@ Tell me about MCU
 Who is the producer of the movie Black Widow?
 ~~~
 
-<img src="images/q03-12.png" width="600px">
+<img src="images/q03-13.png" width="600px">
 
 <br>
 <br>
 
 Amazon Q Business 애플리케이션에서 Upload files, Web crawler를 이용한 RAG 예제를 실습하였습니다.
+
 수고 많으셨습니다!
 
-<br>
 <br>
 <br>
