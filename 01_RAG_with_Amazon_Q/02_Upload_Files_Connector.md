@@ -1,28 +1,47 @@
-** 실습 3. 문서 파일 업로드 실습
+# 실습 2. 문서 파일 업로드 실습
 
-3.1 Upload Files Connector 이용하기
+이 실습에서는 앞에서 만든 Amazon Q Business 애플리케이션에 문서 파일을 업로드해서 RAG를 구현하는 예를 실습해보겠습니다.
 
-앞에서 만든 Amazon Q Business 애플리케이션에 문서 파일을 업로드해서 결과를 생성하는 예제를 실습해보겠습니다.
+## 3.1 Upload Files Connector 이용하기
 
-1. 아래 샘플 문서들을 여러분의 컴퓨터에 다운로드 합니다. 아래 링크를 오른쪽 마우스 버튼을 클릭하고 여러분 컴퓨터의 문서 폴더에 저장합니다. 이 문서는 가상의 보험회사가 제공하는 HTML 페이지입니다.
+1. 아래 샘플 문서들을 여러분의 컴퓨터에 다운로드 합니다. 
+아래 링크를 오른쪽 마우스 버튼을 클릭하고 여러분 컴퓨터의 문서 폴더에 저장합니다. 이 문서들은 가상의 보험회사가 제공하는 HTML 페이지입니다.
 
-문서 파일들...
+[InsuranceIndex](https://static.us-east-1.prod.workshops.aws/public/cafbc4e1-15bf-4df1-add1-e1d15948d360/static/0_InsuranceIndex.html) 
+
+[Auto_Insurance](https://static.us-east-1.prod.workshops.aws/public/cafbc4e1-15bf-4df1-add1-e1d15948d360/static/1_Auto_Insurance.html) 
+
+[Claims_Handling](https://static.us-east-1.prod.workshops.aws/public/cafbc4e1-15bf-4df1-add1-e1d15948d360/static/2_Claims_Handling.html) 
+
+[Claims](https://static.us-east-1.prod.workshops.aws/public/cafbc4e1-15bf-4df1-add1-e1d15948d360/static/3_Claims.html) 
+
+[Hurricane_and_Flood](https://static.us-east-1.prod.workshops.aws/public/cafbc4e1-15bf-4df1-add1-e1d15948d360/static/4_Hurricane_and_Flood.html)
+
+[Policy_Types](https://static.us-east-1.prod.workshops.aws/public/cafbc4e1-15bf-4df1-add1-e1d15948d360/static/5_Policy_Types.html)
+
 
 2. 다음은  빅데이터 기술에 대하여 PDF 형식으로 제공되는 기술 문서입니다. 
 앞에서와 동일한 방법으로 링크를 오른쪽 마우스 버튼으로 클릭해서 문서 폴더에 저장합니다.
 
-3. 아래 링크를 클릭해서 Amazon Q Business 애플리케이션 페이지로 이동합니다.
-https://us-west-2.console.aws.amazon.com/amazonq/business/applications?region=us-west-2 
+[Big Data_Overview](https://static.us-east-1.prod.workshops.aws/public/cafbc4e1-15bf-4df1-add1-e1d15948d360/static/Big%20Data_Overview.pdf)
 
-4. 아래처럼 현재 Document의 값이 0입니다. 애플리케이션을 생성했지만 어떠한 문서도 인덱싱하지 않았기 때문입니다.
+[Big Data_BigDataandDataWarehouse](https://static.us-east-1.prod.workshops.aws/public/cafbc4e1-15bf-4df1-add1-e1d15948d360/static/Big%20Data_BigDataandDataWarehouse.pdf)
 
-5. Data sources를 클릭합니다.
 
-6. Add dat source를 클릭하고 Upload files를 선택합니다.
+3. 앞에서 생성한 Amazon Q Business 애플리케이션 화면에서 **Data sources** 를 클릭합니다.
 
-7. Upload documents 화면에서, Choose files 버튼을 클릭합니다.
+4. 아직 생성된 인덱스가 없습니다. 인덱스를 생성하기 위해 **Add an index** 를 클릭합니다.
 
-8. 앞서 1에서 다운로드한 HTML 파일들을 모두 선택하고 Upload를 클릭합니다.
+5. 기본값을 이용해서 인덱스를 생성하도록 하겠습니다. 화면에서 **Add an index** 를 클릭합니다.
+
+6. 인덱스가 생성되는데 시간이 수 분이 소요될 수 있습니다.
+
+
+7. 인덱스가 생성되었으면 **Add data source**를 클릭하고 **Upload files**를 클릭합니다.
+
+8. **Add File Uploader** 화면에서, **Choose files** 버튼을 클릭합니다.
+
+9. 앞서 1에서 다운로드한 HTML 파일들을 모두 선택하고 Upload를 클릭합니다.
 
 업로드 화면
 
