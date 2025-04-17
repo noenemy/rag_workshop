@@ -33,52 +33,52 @@
 
 3. 앞에서 생성한 Amazon Q Business 애플리케이션 화면에서 **Data sources** 를 클릭합니다.
 
-<img src="images/q02-01.png" width="500px">
+<img src="images/q02-01.png" width="600px">
 
 4. 아직 생성된 인덱스가 없습니다. 인덱스를 생성하기 위해 **Add an index** 를 클릭합니다.
-5. 
-<img src="images/q02-02.png" width="500px">
+   
+<img src="images/q02-02.png" width="600px">
 
-6. 기본값을 이용해서 인덱스를 생성하도록 하겠습니다. 화면에서 **Add an index** 를 클릭합니다.
-7. 
-<img src="images/q02-04.png" width="500px">
-
-8. 인덱스가 생성되는데 시간이  수 분이 소요될 수 있습니다.
-
-9. 인덱스가 생성되었으면 **Add data source**를 클릭하고 **Upload files**를 클릭합니다.
-    
-<img src="images/q02-03.png" width="500px">
-
-10. **Add File Uploader** 화면에서, **Choose files** 버튼을 클릭합니다.
+5. 기본값을 이용해서 인덱스를 생성하도록 하겠습니다. 화면에서 **Add an index** 를 클릭합니다.
  
-<img src="images/q02-04.png" width="500px">
+<img src="images/q02-04.png" width="700px">
 
-11. 앞서에서 다운로드한 HTML 파일들을 모두 선택하고 Upload를 클릭합니다.
+6. 인덱스가 생성되는데 시간이  수 분이 소요될 수 있습니다.
+
+7. 인덱스가 생성되었으면 **Add data source**를 클릭하고 **Upload files**를 클릭합니다.
     
-<img src="images/q02-06.png" width="500px">
+<img src="images/q02-03.png" width="600px">
 
-12. **Upload** 클릭하면 업로드가 진행된 것을 확인할 수 있습니다.
+8. **Add File Uploader** 화면에서, **Choose files** 버튼을 클릭합니다.
+ 
+<img src="images/q02-04.png" width="600px">
+
+9. 앞서에서 다운로드한 HTML 파일들을 모두 선택하고 Upload를 클릭합니다.
+    
+<img src="images/q02-06.png" width="400px">
+
+10. **Upload** 클릭하면 업로드가 진행된 것을 확인할 수 있습니다.
 
 <img src="images/q02-07.png" width="500px">
 
-13. 다시 **Choose files**를 클릭하고, 이번에는 다운로드한 PDF 문서를 선택해서 추가합니다.
+11. 다시 **Choose files**를 클릭하고, 이번에는 다운로드한 PDF 문서를 선택해서 추가합니다.
 
-<img src="images/q02-06.png" width="500px">
+<img src="images/q02-05.png" width="500px">
 
-<img src="images/q02-08.png" width="500px">
+<img src="images/q02-08.png" width="400px">
 
-10. PDF 문서내에 포함된 컨텐츠를 추출할 수 있도록,
+12. PDF 문서내에 포함된 컨텐츠를 추출할 수 있도록,
 **Advanced Indexing** 아래에 있는 **Visual content in documents** 를 체크한 후에 **Upload**를 클릭합니다.
 
 <img src="images/q02-09.png" width="500px">
 
-11. 업로드가 완료되면 **Done** 을 클릭합니다.
+13. 업로드가 완료되면 **Done** 을 클릭합니다.
 
-12. Amazon Q 애플리케이션에서 사용할 수 있도록 업로드된 문서에 대해 인덱싱 작업이 진행됩니다. 이 과정은 수 분이 소요됩니다. 
+14. Amazon Q 애플리케이션에서 사용할 수 있도록 업로드된 문서에 대해 인덱싱 작업이 진행됩니다. 이 과정은 수 분이 소요됩니다. 
 
 <img src="images/q02-10.png" width="500px">
 
-13. 브라우저를 새로 고침해보면 Status Details 가 Read to use a source라고 표시되면 인덱싱 작업이 완료된 것입니다.
+15. 브라우저를 새로 고침해보면 Status Details 가 Read to use a source라고 표시되면 인덱싱 작업이 완료된 것입니다.
 
 **Note** 인덱싱 작업이 진행되는 동안 워크샵 진행 안내에 따르시기 바랍니다. 
 실습 상황에 따라서 쉬는 시간으로 활용되거나 또는 별도의 기술 설명이 진행될 수 있습니다.
@@ -116,5 +116,9 @@ How soon should it be filed for hurricane damage?
 Write an email to the client with a summary of this conversation
 ~~~
 
-6. 업로드한 HTML 문서 내용과 관련된 프롬프트를 직접 입력해서 결과를 확인해봅니다.
+6. 그 외 업로드한 HTML 문서 내용과 관련된 프롬프트를 자유롭게 직접 입력해서 결과를 확인해봅니다.
 
+
+<br>
+<br>
+<br>
